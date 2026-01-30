@@ -1,0 +1,18 @@
+[
+  {
+    "value": "message",
+    "description": "Red color"
+  },
+  {
+    "value": "screen",
+    "description": "Blue color"
+  },
+  {
+    "value": "section",
+    "description": ""
+  },
+  {
+    "value": "error",
+    "description": ""
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "name": "stc-intellisense",
+  "displayName": "stc-intellisense",
+  "description": "a mustache intellisense for stc",
+  "publisher": "carlojimenez",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.107.1"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": ["onLanguage:json"],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "stc-intellisense.stc-version",
+        "title": "Stc mustache version check"
+      }
+    ],
+    "languages": [
+      {
+        "id": "json",
+        "extensions": [
+          ".json"
+        ],
+        "aliases": [
+          "JSON"
+        ]
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "@types/vscode": "^1.107.1",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2",
+    "eslint": "^9.39.2"
+  },
+  "dependencies": {
+    "axios": "^1.13.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sonyzach/usfm-validator.git"
+  }
+}

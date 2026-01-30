@@ -1,0 +1,4 @@
+npm i -g vsce
+cd ..
+vsce package
+vsce publish
