@@ -23,3 +23,4 @@ VS Code extension that provides IntelliSense and autocomplete for Mustache templ
     "logo": ""
   }
 }
+# stc-intellisense
